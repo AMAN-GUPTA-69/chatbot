@@ -27,11 +27,11 @@ function getBotResponse(input) {
 
 
     } else if (input == "ME! Provide the health details of shreya on 01-07-2022") {
-        return "Shreya was <b>Ill and Unhealthy </b> on 01-07-2022";
+        return "Shreya was <b>ill and Unhealthy </b> on 01-07-2022";
 
 
     } else if (input == "ME! Provide the health details of bobo on 03-07-2022") {
-        return "Bobo was <b>Ill and Unhealthy </b> on 03-07-2022";
+        return "Bobo was <b>ill and Unhealthy </b> on 03-07-2022";
 
 
     } else if (input == "ME! who is top performer of this week?") {
@@ -50,8 +50,12 @@ function getBotResponse(input) {
         return "Due to COVID-19";
 
 
-    } else if (input == "I love <b>ME-My Everything 😎!</b>") {
-        return "Thank You❤️!";
+    } else if (input == "why?") {
+        return "Migraine";
+
+
+    } else if (input == "I love <b>ME-My Everything!✨</b>") {
+        return "Thank You!❤️";
 
 
     } else if (input == "Heart clicked!") {
@@ -59,11 +63,11 @@ function getBotResponse(input) {
 
 
     } else if (input == "goodbye") {
-            return "Talk to you later😊!";
+            return "Talk to you later!😊";
 
 
     } else {
-        return "Thank You❤️! See you Again!!";
+        return "Thank You!❤️ See you Again!!";
     }
 
 

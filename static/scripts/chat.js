@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Hi! I'm <b>ME-My Everything 😎!</b><br>"
+    let firstMessage = "Hi! I'm <b>ME-My Everything !✨</b><br>"
     let secondMessage = "How's it going?"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + secondMessage + '</span></p>';
 
@@ -61,7 +61,7 @@ function getResponse() {
     let userText = $("#textInput").val();
 
     if (userText == "") {
-        userText = "I love <b>ME-My Everything 😎!</b>";
+        userText = "I love <b>ME-My Everything!✨</b>";
     }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
@@ -96,7 +96,7 @@ function sendButton() {
 
 function heartButton() {
     
-    buttonSendText("Heart ❤️ clicked!")
+    buttonSendText("❤️")
     
 }
 
